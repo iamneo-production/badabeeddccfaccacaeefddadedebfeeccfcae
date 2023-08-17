@@ -1,12 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.406 s <<< FAILURE! - in testcases.Testcase1
-TestProductClick(testcases.Testcase1)  Time elapsed: 14.769 s  <<< FAILURE!
-java.lang.AssertionError: expected [iQOO Neo 7 Pro] but found []
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.812 s <<< FAILURE! - in testcases.Testcase1
+TestProductClick(testcases.Testcase1)  Time elapsed: 8.952 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
 	at testcases.Testcase1.TestProductClick(Testcase1.java:84)
 
-AddCartTest(testcases.Testcase1)  Time elapsed: 13.378 s  <<< FAILURE!
-java.lang.AssertionError: expected [iQOO Neo 7 Pro] but found []
+AddCartTest(testcases.Testcase1)  Time elapsed: 9.008 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
 	at testcases.Testcase1.AddCartTest(Testcase1.java:117)
 

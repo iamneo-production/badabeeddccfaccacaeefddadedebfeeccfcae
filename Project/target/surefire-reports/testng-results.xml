@@ -2,34 +2,60 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T10:36:53 UTC" name="Surefire suite" finished-at="2023-08-17T10:37:47 UTC" duration-ms="53188">
+  <suite started-at="2023-08-17T12:59:05 UTC" name="Surefire suite" finished-at="2023-08-17T12:59:43 UTC" duration-ms="38719">
     <groups>
     </groups>
-    <test started-at="2023-08-17T10:36:53 UTC" name="Surefire test" finished-at="2023-08-17T10:37:47 UTC" duration-ms="53188">
+    <test started-at="2023-08-17T12:59:05 UTC" name="Surefire test" finished-at="2023-08-17T12:59:43 UTC" duration-ms="38719">
       <class name="testcases.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:36:54 UTC" name="beforeMethod" finished-at="2023-08-17T10:37:01 UTC" duration-ms="7094" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:05 UTC" name="beforeMethod" finished-at="2023-08-17T12:59:11 UTC" duration-ms="5988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestTodaysDeal()[pri:1, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:01 UTC" name="TestTodaysDeal" finished-at="2023-08-17T10:37:08 UTC" duration-ms="6978" status="PASS">
+        <test-method signature="TestTodaysDeal()[pri:1, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:11 UTC" name="TestTodaysDeal" finished-at="2023-08-17T12:59:16 UTC" duration-ms="5572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTodaysDeal -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:08 UTC" name="afterMethod" finished-at="2023-08-17T10:37:08 UTC" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:16 UTC" name="afterMethod" finished-at="2023-08-17T12:59:17 UTC" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:08 UTC" name="beforeMethod" finished-at="2023-08-17T10:37:13 UTC" duration-ms="4834" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:17 UTC" name="beforeMethod" finished-at="2023-08-17T12:59:21 UTC" duration-ms="3920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestProductClick()[pri:2, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:13 UTC" name="TestProductClick" finished-at="2023-08-17T10:37:28 UTC" duration-ms="14761" status="FAIL">
+        <test-method signature="TestProductClick()[pri:2, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:21 UTC" name="TestProductClick" finished-at="2023-08-17T12:59:30 UTC" duration-ms="8943" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [iQOO Neo 7 Pro] but found []]]>
+              <![CDATA[expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [iQOO Neo 7 Pro] but found []
+              <![CDATA[java.lang.AssertionError: expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -76,21 +102,47 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestProductClick -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:28 UTC" name="afterMethod" finished-at="2023-08-17T10:37:28 UTC" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:30 UTC" name="afterMethod" finished-at="2023-08-17T12:59:30 UTC" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:28 UTC" name="beforeMethod" finished-at="2023-08-17T10:37:33 UTC" duration-ms="4804" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:30 UTC" name="beforeMethod" finished-at="2023-08-17T12:59:34 UTC" duration-ms="4105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AddCartTest()[pri:3, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:33 UTC" name="AddCartTest" finished-at="2023-08-17T10:37:46 UTC" duration-ms="13376" status="FAIL">
+        <test-method signature="AddCartTest()[pri:3, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:34 UTC" name="AddCartTest" finished-at="2023-08-17T12:59:43 UTC" duration-ms="9005" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [iQOO Neo 7 Pro] but found []]]>
+              <![CDATA[expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [iQOO Neo 7 Pro] but found []
+              <![CDATA[java.lang.AssertionError: expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -137,7 +189,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCartTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T10:37:46 UTC" name="afterMethod" finished-at="2023-08-17T10:37:47 UTC" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-17T12:59:43 UTC" name="afterMethod" finished-at="2023-08-17T12:59:43 UTC" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
