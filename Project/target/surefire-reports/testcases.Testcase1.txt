@@ -1,40 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.544 s <<< FAILURE! - in testcases.Testcase1
-TestProductClick(testcases.Testcase1)  Time elapsed: 10.366 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
-Sort by:
-        
-            Featured
-        
-            Price: Low to High
-        
-            Price: High to Low
-        
-            Avg. Customer Review
-        
-            Newest Arrivals
-        
-    Sort by:Featured]
-	at testcases.Testcase1.TestProductClick(Testcase1.java:84)
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.994 s <<< FAILURE! - in testcases.Testcase1
+AddCartTest(testcases.Testcase1)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	CartValue cannot be resolved to a variable
 
-AddCartTest(testcases.Testcase1)  Time elapsed: 10.457 s  <<< FAILURE!
-java.lang.AssertionError: 
-expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
-Sort by:
-        
-            Featured
-        
-            Price: Low to High
-        
-            Price: High to Low
-        
-            Avg. Customer Review
-        
-            Newest Arrivals
-        
-    Sort by:Featured]
-	at testcases.Testcase1.AddCartTest(Testcase1.java:117)
+	at testcases.Testcase1.AddCartTest(Testcase1.java:105)
 

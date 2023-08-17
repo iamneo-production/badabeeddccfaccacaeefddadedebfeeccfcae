@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,11 +106,6 @@
                         <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="AddCartTest">AddCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestProductClick">TestProductClick</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
@@ -120,6 +115,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestProductClick">TestProductClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestTodaysDeal">TestTodaysDeal</a> <!-- method navigator-link -->
@@ -148,48 +148,12 @@
                   <a name="AddCartTest">
                   </a> <!-- AddCartTest -->
                   <span class="method-name">AddCartTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
-Sort by:
-        
-            Featured
-        
-            Price: Low to High
-        
-            Price: High to Low
-        
-            Avg. Customer Review
-        
-            Newest Arrivals
-        
-    Sort by:Featured]
-	at testcases.Testcase1.AddCartTest(Testcase1.java:117)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
+	CartValue cannot be resolved to a variable
+
+	at testcases.Testcase1.AddCartTest(Testcase1.java:105)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestProductClick">
-                  </a> <!-- TestProductClick -->
-                  <span class="method-name">TestProductClick</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Oneplus New Launch: Bullets Z2 ANC] but found [2 results
-Sort by:
-        
-            Featured
-        
-            Price: Low to High
-        
-            Price: High to Low
-        
-            Avg. Customer Review
-        
-            Newest Arrivals
-        
-    Sort by:Featured]
-	at testcases.Testcase1.TestProductClick(Testcase1.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 38 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -201,6 +165,13 @@ Sort by:
               <span class="class-name">testcases.Testcase1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestProductClick">
+                  </a> <!-- TestProductClick -->
+                  <span class="method-name">TestProductClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="TestTodaysDeal">
@@ -263,22 +234,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddCartTest')
+data.setCell(0, 1, 'TestProductClick')
 data.setCell(0, 2, 'testcases.Testcase1')
-data.setCell(0, 3, 10454);
+data.setCell(0, 3, 9541);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestProductClick')
+data.setCell(1, 1, 'TestTodaysDeal')
 data.setCell(1, 2, 'testcases.Testcase1')
-data.setCell(1, 3, 10357);
+data.setCell(1, 3, 5788);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestTodaysDeal')
+data.setCell(2, 1, 'AddCartTest')
 data.setCell(2, 2, 'testcases.Testcase1')
-data.setCell(2, 3, 5950);
+data.setCell(2, 3, 1);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -311,39 +282,37 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TestTodaysDeal</span>
-                <span class="method-start">6778 ms</span>
+                <span class="method-start">6413 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">12730 ms</span>
+                <span class="method-start">12202 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">13402 ms</span>
+                <span class="method-start">12856 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TestProductClick</span>
-                <span class="method-start">18089 ms</span>
+                <span class="method-start">17770 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">28453 ms</span>
+                <span class="method-start">27312 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">28718 ms</span>
+                <span class="method-start">27518 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">AddCartTest</span>
-                <span class="method-start">33564 ms</span>
+                <span class="method-start">32267 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">44019 ms</span>
+                <span class="method-start">32275 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

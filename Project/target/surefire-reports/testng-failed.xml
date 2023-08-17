@@ -7,7 +7,6 @@
         <methods>
           <include name="AddCartTest"/>
           <include name="afterMethod"/>
-          <include name="TestProductClick"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- testcases.Testcase1 -->
